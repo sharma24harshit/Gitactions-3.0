@@ -2,7 +2,7 @@
 name: counter_app
 
 on: 
- push: 
+ push:
    branches: ["main"]
 
    jobs:
