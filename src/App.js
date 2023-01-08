@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       
-      <h1>Counter : {count}</h1>
+      <h1>Counter app : {count}</h1>
       <div>
         <button onClick={()=>setCount(count-1)} >Dec</button>
         <button onClick={()=>setCount(count+1)} >Inc</button>
@@ -16,3 +16,4 @@ function App() {
 }
 
 export default App;
+
