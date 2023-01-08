@@ -3,11 +3,11 @@ name: counter_app
 
 on: 
  push:
-   branches: ["main"]
+    branches: ["main"]
 
-   jobs:
-     build: 
-    runs-on: ubuntu-latest
+jobs:
+  build: 
+   runs-on: ubuntu-latest
 
          steps:
           - name: Checkout code
@@ -29,4 +29,4 @@ on:
             steps:
               - name: Deploy to Github pages
                 id: deployment
-              uses: action/deploy-pages@v1
+              uses: actions/deploy-pages@v1
